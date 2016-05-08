@@ -5,6 +5,7 @@
 #!/usr/bin/env python
 
 import ConfigParser
+from logger import logger
 
 class ConfParser():
     def __init__(self):
@@ -12,3 +13,8 @@ class ConfParser():
 
     def get_value(self):
         pass
+
+
+
+if __name__ == '__main__':
+    logger.info("ConfigParse")
